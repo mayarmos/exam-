@@ -1,0 +1,62 @@
+/* <!----------------------     sidenav        ----------------------> */
+.slideNav{
+ 
+  position: fixed;
+  left: -200;
+  z-index: 999;
+}
+.options , .footer{
+ width: 200px;
+;
+}
+.icons{
+width: 50px;
+}
+
+.icons img{
+width: 50px;
+position: absolute;
+top: 0;
+}
+
+.l-i{
+  position: absolute;
+bottom: 20px;
+}
+
+/* <!----------------------    category        ----------------------> */
+
+.layer{
+  height: 100%;
+  width: 100%;
+  top: 100%;
+  opacity: 0;
+  background-color: #D2CBCA;
+  overflow: hidden;
+  transition: 1s all;
+}
+
+.meals:hover .layer{
+  top: 0;
+  opacity: 1;
+  overflow: hidden;
+}
+
+.search-bar{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
